@@ -14,12 +14,22 @@ header {
   background-image: url('z7209664547988_000289faba8414e040fdb36ca1375d1b.jpg');
   background-size: cover;
   background-position: center;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   color: black;
   text-align: center;
   padding: 2.5rem 0;                   /* tăng chiều cao header */
   font-size: 1.8rem;                   /* cho tiêu đề lớn hơn */
   text-shadow: 2px 2px 6px rgba(0,0,0,0.5)
 }
+menu{
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
 
 nav ul {
     list-style: none;
@@ -241,4 +251,5 @@ body.dark-mode {
 
 #toggle-btn:hover {
   background-color: #666;
+
 }
