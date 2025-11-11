@@ -4,3 +4,7 @@ Phần mềm hỗ trợ lập trình: Live server, htmltagwrap , HTML to CSS aut
 (C) copyright 2025.
 Đường dẫn tới trang web https://aduangson38-pixel.github.io/.
 Đường dẫn được mua miễn phí trên github.
+Được lấy cảm hứng từ DarkCSS và evondev 1 năm trước.
+Hiện không có nhà tài trợ.
+Những gì còn thắc mắc thì hãy gửi về địa chỉ gmail: aduangson38@gmail.com
+                            Chỉnh sửa lần cuối: 14:03 ngày 11, tháng 11, năm 2025
