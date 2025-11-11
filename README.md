@@ -14,5 +14,5 @@ Hiện không có nhà tài trợ.
 Những gì còn thắc mắc thì hãy gửi về địa chỉ gmail: aduangson38@gmail.com . 
 Sản phẩm này là của nhóm: **Freaky** (Lớp 8A).
 Từ tác giả chính: Em muốn trường có thể bồi dưỡng thêm học sinh giỏi môn Tin học về C++ để sau này các bạn sẽ có thể tìm được giải "lớn" cho nhà Trường.
-Cảm ơn Github vì đã tạo ra địa chỉ trang web
+Cảm ơn Github vì đã tạo ra địa chỉ trang web.
                             						Chỉnh sửa lần cuối: 15:00 ngày 11, tháng 11, năm 2025
