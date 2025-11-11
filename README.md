@@ -7,7 +7,11 @@ Phần mềm hỗ trợ lập trình: Live server, htmltagwrap , HTML to CSS aut
 Đường dẫn được mua miễn phí trên github.
 Web chạy tốt nhất tại Microsoft Edge
 Được lấy cảm hứng từ DarkCSS và evondev 1 năm trước.
+Trang web này là bản chung có rất ít tính năng. Sẽ có 1 trang web được phát hành vào năm sau với các tính năng mới sẽ được thông báo sau.
+Trang web sau sẽ tích hợp tính năng (khi click vào phần này thì sẽ có trang của phần được chọn hiện ra).
+Hiện tại bản mới đang ở trong giai đoạn thử nghiệm có thể sẽ hoàn thành trước 4 tháng.
 Hiện không có nhà tài trợ.
 Những gì còn thắc mắc thì hãy gửi về địa chỉ gmail: aduangson38@gmail.com
 Sản phẩm này là của nhóm: **Freaky** (Lớp 8A).
-                            Chỉnh sửa lần cuối: 14:17 ngày 11, tháng 11, năm 2025
+Từ tác giả chính: Em muốn trường có thể bồi dưỡng thêm học sinh giỏi môn Tin học để sau này các bạn sẽ có thể tìm được giải "lớn" cho nhà Trường
+                            						Chỉnh sửa lần cuối: 14:47 ngày 11, tháng 11, năm 2025
