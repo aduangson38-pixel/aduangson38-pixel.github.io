@@ -9,5 +9,5 @@ Web chạy tốt nhất tại Microsoft Edge
 Được lấy cảm hứng từ DarkCSS và evondev 1 năm trước.
 Hiện không có nhà tài trợ.
 Những gì còn thắc mắc thì hãy gửi về địa chỉ gmail: aduangson38@gmail.com
-Sản phẩm này là của nhóm: **Freaky** (Lớp 8A)
+Sản phẩm này là của nhóm: **Freaky** (Lớp 8A).
                             Chỉnh sửa lần cuối: 14:17 ngày 11, tháng 11, năm 2025
