@@ -20,6 +20,18 @@ btn.addEventListener("click", () => {
   }
 });
 </script>
+<script>
+function openImage(img) {
+  const popup = document.getElementById("popup");
+  const popupImg = document.getElementById("popup-img");
+  popup.style.display = "block";
+  popupImg.src = img.src;
+}
+
+function closeImage() {
+  document.getElementById("popup").style.display = "none";
+}
+</script>
 <body>
     <button id="toggle-btn" onclick="toggleTheme()">🌙 Quá khó để thấy? Chế độ tối</button>
     <header>
@@ -28,7 +40,7 @@ btn.addEventListener("click", () => {
                 <li><a href="#trang-chu">Trang chủ</a></li>
                 <li><a href="#gioi-thieu">Giới thiệu</a></li>
                 <li><a href="#thanh-tich">Thành tích</a></li>
-                <li><a href="#tin-tuc">Tin tức</a></li>
+                <li><a href="#hinh-anh-truong-hoc">Hình ảnh Trường học</a></li>
                 <li><a href="#hoat-dong">Hoạt động ngoại khóa</a></li>
                 <li><a href="#Các hoạt động tháng này">Các hoạt động tháng này</a></li>
                 <li><a href="#lien-he">Liên hệ</a></li>
@@ -47,9 +59,18 @@ btn.addEventListener("click", () => {
     <section id="gioi-thieu">
         <h2>Giới thiệu về trường</h2>
         <div class="textbox">
-            <p>Trường THCS Minh Lạc là một trong những cơ sở giáo dục uy tín, luôn đặt chất lượng đào tạo và sự phát triển toàn diện của học sinh lên hàng đầu. Với đội ngũ giáo viên giàu kinh nghiệm, tâm huyết cùng môi trường học tập hiện đại, thân thiện, nhà trường không ngừng đổi mới phương pháp giảng dạy nhằm phát huy tối đa năng lực của từng học sinh.
-Ngoài chương trình học chính khóa, trường còn chú trọng đến các hoạt động ngoại khóa, kỹ năng sống và giáo dục đạo đức, giúp học sinh phát triển toàn diện cả về trí tuệ, thể chất lẫn tinh thần.
-Với phương châm “Hiền tài là nguyên khí quốc gia”, trường THCS Minh Lạc luôn là nơi chắp cánh cho những ước mơ, là điểm đến tin cậy của các bậc phụ huynh và học sinh.</p>
+            <p>Giới thiệu về Trường Trung học cơ sở Minh Lạc
+Trường Trung học cơ sở Minh Lạc tọa lạc tại thôn Yên Lạc- xã Cẩm Lạc- tỉnh Hà Tĩnh – một miền quê giàu truyền thống hiếu học và cách mạng. Trường được thành lập trên cơ sở sáp nhập giữa Trường THCS Cẩm Lạc và Trường THCS Cẩm Minh vào tháng 8 năm 2013, đánh dấu một bước phát triển mới trong công tác tổ chức, quản lý và nâng cao chất lượng giáo dục của địa phương. Từ đó đến nay, Trường THCS Minh Lạc không ngừng lớn mạnh, trở thành điểm sáng trong sự nghiệp trồng người của huyện Cẩm Xuyên.
+Trải qua hơn một thập kỷ xây dựng và trưởng thành, nhà trường luôn nhận được sự quan tâm, chỉ đạo sâu sát của Phòng Giáo dục và Đào tạo huyện Cẩm Xuyên, sự lãnh đạo của cấp ủy, chính quyền địa phương, cùng sự đồng hành của phụ huynh học sinh và nhân dân 2 xã Cẩm Minh và Cẩm Lạc. Phát huy tinh thần đoàn kết, trách nhiệm và lòng yêu nghề, tập thể sư phạm nhà trường đã nỗ lực vượt qua khó khăn, đạt được nhiều kết quả toàn diện trong công tác dạy học và giáo dục học sinh.
+Năm học 2025–2026, Trường THCS Minh Lạc có 18 lớp với 750 học sinh và 37 cán bộ, giáo viên, nhân viên trong biên chế. Đội ngũ giáo viên của trường có trình độ chuyên môn vững vàng, tâm huyết, tích cực đổi mới phương pháp giảng dạy, ứng dụng công nghệ thông tin trong dạy học và kiểm tra đánh giá, đáp ứng yêu cầu đổi mới chương trình giáo dục phổ thông. Bằng tinh thần trách nhiệm và sự tận tụy, các thầy cô đã góp phần đưa chất lượng giáo dục của nhà trường ngày càng được nâng cao.
+Kết quả năm học 2024–2025 là minh chứng rõ nét cho những nỗ lực đó. Đội tuyển học sinh giỏi lớp 8 của trường xếp thứ 2 toàn huyện, có 150 em học sinh giỏi các cấp, công tác giáo dục đạo đức học sinh được đánh giá tốt, tỷ lệ học sinh lên lớp đạt 99%, và tỷ lệ tốt nghiệp lớp 9 đạt 100%. Những thành tích ấy thể hiện sự bền bỉ phấn đấu của tập thể sư phạm và ý thức học tập, rèn luyện nghiêm túc của học sinh toàn trường, khẳng định vị thế và uy tín của Trường THCS Minh Lạc trong ngành giáo dục địa phương.
+Không chỉ chú trọng đến chất lượng dạy học, nhà trường còn đặc biệt quan tâm đầu tư cơ sở vật chất và xây dựng môi trường giáo dục xanh – sạch – đẹp, thân thiện và an toàn. Hiện nay, trường có 5 tòa nhà cao tầng khang trang với tổng diện tích khuôn viên 16.265 m², được trang bị đầy đủ phòng học, phòng bộ môn và phòng chức năng hiện đại, phục vụ hiệu quả cho công tác dạy học theo hướng phát triển phẩm chất, năng lực học sinh. Hệ thống cây xanh, thảm cỏ, sân chơi, bãi tập được quy hoạch khoa học, tạo cảnh quan hài hòa, góp phần đưa Trường THCS Minh Lạc trở thành một trong những ngôi trường có môi trường sư phạm xanh, sạch, đẹp, an toàn.
+Song song với việc nâng cao chất lượng dạy học, công tác giáo dục đạo đức, nhân cách học sinh luôn được xem là nhiệm vụ trọng tâm. Nhà trường thường xuyên phối hợp chặt chẽ giữa nhà trường – gia đình – xã hội trong việc quản lý, giáo dục học sinh. Thông qua Ban đại diện cha mẹ học sinh, cùng các tổ chức đoàn thể như Đoàn Thanh niên, Đội Thiếu niên Tiền phong Hồ Chí Minh, và sự hỗ trợ của công an xã, chính quyền địa phương, nhà trường đã tổ chức nhiều hoạt động thiết thực: tuyên truyền pháp luật, giáo dục kỹ năng sống, phòng chống bạo lực học đường, xây dựng văn hóa ứng xử, giúp học sinh phát triển hài hòa về đức, trí, thể, mỹ. Nhờ đó, môi trường giáo dục của Trường THCS Minh Lạc luôn trong sạch, lành mạnh, không có học sinh vi phạm pháp luật hay các tệ nạn xã hội.
+Bên cạnh đó, Chi bộ Đảng nhà trường hiện có 34 đảng viên, với tuổi đời trung bình 40 tuổi, luôn là hạt nhân chính trị lãnh đạo mọi hoạt động. Trong 5 năm liên tục, Chi bộ được công nhận là Chi bộ trong sạch, vững mạnh, các tổ chức đoàn thể như Công đoàn, Liên đội đều hoạt động hiệu quả, phát huy tinh thần dân chủ, đoàn kết, góp phần thúc đẩy phong trào thi đua “Dạy tốt – Học tốt”, xây dựng nề nếp, kỷ cương trong nhà trường.
+Hướng đến tương lai, Trường THCS Minh Lạc xác định phương hướng phát triển đến năm 2030 là tiếp tục nâng cao chất lượng giáo dục toàn diện, xây dựng môi trường học tập hiện đại, thân thiện, nhân văn. Dự kiến đến thời điểm đó, quy mô trường sẽ đạt 24 lớp với khoảng 986 học sinh, phấn đấu đạt chuẩn quốc gia mức độ 2. Nhà trường tập trung vào các nhiệm vụ trọng tâm như: nâng cao chất lượng đội ngũ giáo viên, đẩy mạnh chuyển đổi số trong quản lý và dạy học, tăng cường giáo dục kỹ năng sống và văn hóa học đường, đồng thời tiếp tục đầu tư cơ sở vật chất đồng bộ, hiện đại, đáp ứng yêu cầu đổi mới căn bản và toàn diện giáo dục.
+Với phương châm hành động “Kỷ cương – Tình thương – Trách nhiệm” và mục tiêu “Đổi mới – Chất lượng – Hiệu quả”, tập thể cán bộ, giáo viên, nhân viên và học sinh Trường THCS Minh Lạc luôn đoàn kết, sáng tạo, không ngừng nỗ lực vươn lên, xây dựng nhà trường trở thành ngôi trường của niềm tin, trí tuệ và khát vọng, góp phần tô thắm thêm truyền thống hiếu học của quê hương, xứng đáng là điểm sáng của ngành giáo dục trong thời kỳ đổi mới và hội nhập.
+
+</p>
         </div>
     </section>
 
@@ -65,15 +86,25 @@ Với phương châm “Hiền tài là nguyên khí quốc gia”, trường TH
         </div>
     </section>
 
-    <section id="tin-tuc">
-        <h2>Tin tức - Sự kiện</h2>
-        <div class="tin-tuc-grid">
-            <article>
-                <img src="https://scontent.fhan5-8.fna.fbcdn.net/v/t39.30808-6/497519262_1276859587779014_1229724043013049812_n.jpg?stp=dst-jpg_s960x960_tt6&_nc_cat=108&ccb=1-7&_nc_sid=cc71e4&_nc_ohc=024kRlYBpqEQ7kNvwESD2bp&_nc_oc=Adlz2OcGj38bX_mvST5ixoe0C0jIu21YMnWA4C55-bGmv-Dh758AO4tUkUkyi8sbaAQ&_nc_zt=23&_nc_ht=scontent.fhan5-8.fna&_nc_gid=xmnzGpet7G0e4TDwlAOuyg&oh=00_AfirAI_9s3QaJ_NHQvj9rFx4YToJHfI3nfdEXAY1FQIbtQ&oe=6914D687">
-                <h3>Đại hội cháu ngoan bác Hồ xã Cẩm Lạc năm học 2024-2025</h3>
-                <img src="https://scontent.fhan5-10.fna.fbcdn.net/v/t39.30808-6/557612422_1405161974948774_2046661319118410113_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=833d8c&_nc_ohc=6GpvU_BZujcQ7kNvwFpD-7W&_nc_oc=AdlaKieMu8F-oww1sJUR18WpWwYTHmC2cofSrPP0uTgQ8FqQwtXi4Bt_C2z_k6FnB-E&_nc_zt=23&_nc_ht=scontent.fhan5-10.fna&_nc_gid=LRoy7-ENyS3Df9wzUFa-LA&oh=00_Afib9YrZ7g9M9hg-5KbFZr8qk-aGd-OVIz5TVOAQTw545A&oe=6914F24B">
-                <h4>Đại hội Liên đội Trường năm học 2025-2026</h4>
-            </article>
+    <section id="hinh-anh-truong-hoc">
+        <h2>Ảnh về ngôi Trường</h2>
+        <div class="hinh-anh-truong-hoc-grid">
+            <div class="slideshow-wrapper">
+  <div class="slideshow-container">
+  <img src="https://scontent.fhan5-8.fna.fbcdn.net/v/t39.30808-6/497519262_1276859587779014_1229724043013049812_n.jpg?stp=dst-jpg_s960x960_tt6&_nc_cat=108&ccb=1-7&_nc_sid=cc71e4&_nc_ohc=024kRlYBpqEQ7kNvwESD2bp&_nc_oc=Adlz2OcGj38bX_mvST5ixoe0C0jIu21YMnWA4C55-bGmv-Dh758AO4tUkUkyi8sbaAQ&_nc_zt=23&_nc_ht=scontent.fhan5-8.fna&_nc_gid=xmnzGpet7G0e4TDwlAOuyg&oh=00_AfirAI_9s3QaJ_NHQvj9rFx4YToJHfI3nfdEXAY1FQIbtQ&oe=6914D687" class="slide active">
+<img src="https://scontent.fhan5-10.fna.fbcdn.net/v/t39.30808-6/557612422_1405161974948774_2046661319118410113_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=833d8c&_nc_ohc=6GpvU_BZujcQ7kNvwFpD-7W&_nc_oc=AdlaKieMu8F-oww1sJUR18WpWwYTHmC2cofSrPP0uTgQ8FqQwtXi4Bt_C2z_k6FnB-E&_nc_zt=23&_nc_ht=scontent.fhan5-10.fna&_nc_gid=LRoy7-ENyS3Df9wzUFa-LA&oh=00_Afib9YrZ7g9M9hg-5KbFZr8qk-aGd-OVIz5TVOAQTw545A&oe=6914F24B" class="slide">
+<img src="z7209678250966_002ffc011f152907e7d4b32da3873020.jpg" class="slide">
+<img src="z7209664487289_1f38e2e7a9544dc300f560baeaa8ad56.jpg" class="slide">
+<img src="z7209664547988_000289faba8414e040fdb36ca1375d1b.jpg" class="slide">
+<img src="z7209664897221_5d9b69f1d16907fa5b8c862d35fbb1e9.jpg" class="slide">
+<img src="z7209665803762_a6c3d9f324f94382056c313074464d39.jpg" class="slide">
+<img src="z7209665803938_6a7bb6125acf3a1ddcc1ef0e37cd7675.jpg" class="slide">
+<img src="z7209678250966_002ffc011f152907e7d4b32da3873020.jpg" class="slide">  
+<img src="z7209665803885_963211728d9e7aa4d2341e1993f0d092.jpg" class="slide">
+<img src="z7209686008857_fb7f57a0c09fcdcc72f7b7ff631dfd99.jpg" class="slide">
+<img src="z7209686912972_971a717183aef5096c2602c8aaf10f68.jpg" class="slide">
+
+
         </div>
     </section>
 
@@ -123,7 +154,17 @@ function toggleTheme() {
   }
 }
 </script>
+<script>
+    let index = 0;
+    const slides = document.querySelectorAll('.slide');
+
+    function showNextSlide() {
+      slides[index].classList.remove('active');
+      index = (index + 1) % slides.length;
+      slides[index].classList.add('active');
+    }
+
+    setInterval(showNextSlide, 3000);
+  </script>
 </body>
-
 </html>
-
