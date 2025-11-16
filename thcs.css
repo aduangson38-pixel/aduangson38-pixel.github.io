@@ -98,17 +98,17 @@ h2 {
 .textbox {
     background-color: white;
     padding: 2rem;
-    border-radius: 8px;
+    border-radius: 6px;
     box-shadow: 0 2px 4px rgba(0,0,0,0.1);
 }
 
-.hinh-anh-truong-hoc-grid {
+.tin-tuc-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 2rem;
 }
 
-.hinh-anh-truong-hoc-grid article {
+.tin-tuc-grid article {
     background: white;
     padding: 1rem;
     border-radius: 8px;
@@ -116,7 +116,7 @@ h2 {
     transition: transform 0.3s ease;
 }
 
-.hinh-anh-truong-hoc-grid img {
+.tin-tuc-grid img {
     width: 100%;
     height: 200px;
     object-fit: cover;
@@ -161,7 +161,7 @@ section h2::after {
     height: 3px;
     background-color: #004d40;
 }
-.tin-tuc-grid article:hover {
+.hinh-anh-grid article:hover {
     transform: translateY(-5px);
 }
 html {
@@ -282,4 +282,8 @@ body.dark-mode {
   margin: 20px auto;
   padding: 10px;
 }
-
+video {
+      max-width: 100%;
+      border: 2px solid #2c3e50;
+      border-radius: 8px;
+    }
