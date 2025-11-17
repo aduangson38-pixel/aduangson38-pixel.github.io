@@ -24,12 +24,33 @@ header {
   font-size: 1.8rem;                   /* cho tiêu đề lớn hơn */
   text-shadow: 2px 2px 6px rgba(0,0,0,0.5)
 }
-menu{
-  display: flex;
-  gap: 20px;
-  flex-wrap: wrap;
+.main-menu {
+    background-color: #0b61a4; /* màu xanh giống hình 1 */
+    padding: 12px 0;
 }
 
+.main-menu ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px; /* khoảng cách giữa các nút */
+    margin: 0;
+    padding: 0;
+}
+
+.main-menu ul li a {
+    color: white;
+    font-size: 18px;
+    text-decoration: none;
+    padding: 8px 15px;
+    border-radius: 6px;
+    transition: 0.25s;
+}
+
+.main-menu ul li a:hover {
+    background-color: #084b7a;
+}
 nav ul {
     list-style: none;
     padding: 1rem;
@@ -287,3 +308,4 @@ video {
       border: 2px solid #2c3e50;
       border-radius: 8px;
     }
+
