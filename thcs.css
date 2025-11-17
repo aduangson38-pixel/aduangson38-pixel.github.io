@@ -13,44 +13,51 @@ body {
 header {
   background-image: url('z6976777946340_a043ddec5a8721fe8cc14c2c4da82bdd.jpg');
   background-size: cover;
-  background-position: center;
-  height: 500px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  color: black;
-  text-align: center;
-  padding: 2.5rem 0;                   /* tăng chiều cao header */
-  font-size: 1.8rem;                   /* cho tiêu đề lớn hơn */
-  text-shadow: 2px 2px 6px rgba(0,0,0,0.5)
+    background-position: center;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: row;
+    text-align: center;
+    color: white;
+    font-size: 12px;
+    font-family: 'Times New Roman', Times, serif;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
+
 .main-menu {
-    background-color: #0b61a4; /* màu xanh giống hình 1 */
+    background-color: #f8da4a;
     padding: 12px 0;
 }
 
 .main-menu ul {
-    list-style: none;
     display: flex;
     justify-content: center;
-    flex-wrap: wrap;
-    gap: 20px; /* khoảng cách giữa các nút */
+    list-style: none;
     margin: 0;
     padding: 0;
 }
 
-.main-menu ul li a {
-    color: white;
-    font-size: 18px;
-    text-decoration: none;
-    padding: 8px 15px;
-    border-radius: 6px;
-    transition: 0.25s;
+.main-menu li {
+    margin: 0 10px;
 }
 
-.main-menu ul li a:hover {
-    background-color: #084b7a;
+.main-menu li a {
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 10px 16px;
+    border-radius: 8px;
+    background-color: #fff176;
+    transition: background-color 0.3s;
 }
+
+.main-menu li a:hover {
+    background-color: #ffee58;
+}
+
+
 nav ul {
     list-style: none;
     padding: 1rem;
@@ -64,7 +71,7 @@ nav ul li {
 nav ul li a {
   color: white;
   text-decoration: none;
-  border: 2px solid red;
+  border: 2px solid rgb(0, 132, 255);
   padding: 0.5rem 1.2rem;
   border-radius: 6px;
   margin: 0 0.5rem;
@@ -76,8 +83,8 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-  background-color: white;
-  color: #808080;
+  background-color: rgb(0, 132, 255);
+  color: #f9f9f9;
   transform: translateY(-2px);
   box-shadow: 0 4px 8px rgba(0,0,0,0.2),
   0 0 8px rgba(255,255,255,0.6);
@@ -308,4 +315,5 @@ video {
       border: 2px solid #2c3e50;
       border-radius: 8px;
     }
+
 
