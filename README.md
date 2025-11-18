@@ -2,7 +2,6 @@ Trang web Trường THCS Minh Lạc được lập trình bằng ngôn ngữ htm
 Trang web được tạo ra vào 3 tháng trước để kỉ niệm 43 năm ngày nhà giáo Việt Nam (20-11-1982/20-11-2025)
 Phần mềm lập trình: Visual Studio Code (VS Code).
 Phần mềm hỗ trợ lập trình: Live server, htmltagwrap , HTML to CSS autocompletion , Prettier , Auto rename tag.
-(C) copyright 2025.
 Đường dẫn tới trang web https://aduangson38-pixel.github.io/.
 Đường dẫn được mua miễn phí trên github.
 Web chạy tốt nhất tại Microsoft Edge
@@ -10,4 +9,4 @@ Web chạy tốt nhất tại Microsoft Edge
 Hiện không có nhà tài trợ.
 Những gì còn thắc mắc thì hãy gửi về địa chỉ gmail: aduangson38@gmail.com . 
 Sản phẩm này là của **Ngũ Long Hội** (Lớp 8A).
-                            						Chỉnh sửa lần cuối: 16:30 ngày 16, tháng 11, năm 2025
+                            						Chỉnh sửa lần cuối: 19:09 ngày 18, tháng 11, năm 2025
